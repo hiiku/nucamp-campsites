@@ -28,7 +28,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-4 col-sm-3 col-md-2 align-items-center">
-                    <img src="img/logo.png" class="img-fluid" alt="">
+                    <img src="img/logo.png" class="img-fluid">
                 </div>
                 <div class="col">
                     <h1>NuCamp</h1>
@@ -47,7 +47,7 @@
     <!-- Reserve Modal -->
 
     <div id="reserveModal" class="modal fade">
-        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header bg-info">
                     <h3 class="modal-title bg-info text-white">Reserve a Campsite</h3>
@@ -129,42 +129,42 @@
 
     <!-- Login Modal. -->
 
-        <div id="loginModal" class="modal fade" role="dialog">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h3 class="modal-title">Login</h3>
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="container-fluid">
-                            <form>
-                                <div class="form-row">
-                                    <div class="form-group col-12">
-                                        <label class="sr-only" for="loginEmail">Email address</label>
-                                        <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Enter email">
-                                    </div>
-                                    <div class="form-group col-12">
-                                        <label class="sr-only" for="loginPassword">Password</label>
-                                        <input type="password" class="form-control form-control-sm" id="loginPassword" placeholder="Password">
-                                    </div>
-                                    <div class="col">
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox">
-                                            <label class="form-check-label"> Remember me</label>
-                                        </div>
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Login</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginEmail">Email address</label>
+                                    <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Enter email">
+                                </div>
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginPassword">Password</label>
+                                    <input type="password" class="form-control form-control-sm" id="loginPassword" placeholder="Password">
+                                </div>
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                        <label class="form-check-label"> Remember me</label>
                                     </div>
                                 </div>
-                                <div class="form-row">
-                                    <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
-                                    <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
-                                </div>
-                            </form>
-                        </div>
+                            </div>
+                            <div class="form-row">
+                                <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                                <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
     <div class="container">
         <div class="row row-content">
@@ -259,52 +259,9 @@
             <div class="col">
                 <div class="media">
                     <img class="d-flex mr-3 img-thumbnail" src="img/bootstrap-thumb.png" alt="Bootstrap Outfitters" />
-                        <div class="media-body align-self-center">
-                            <h3>Bootstrap Outfitters</h3>
-                            <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with gear you need at prices you can't beat.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-    <!--Reservation Form -->
-
-        <div id="reservation" class="row-content align-items-center">
-            <div class="col-sm-6 mx-auto">
-                <div class="card">
-                    <h3 class="card-header bg-info text-white">Reserve a Campsite</h3>
-                    <div class="card-body">
-                        <form id="reserveForm">
-                            <div class="form-group row">
-                                <div class="col-sm-6">
-                                    <label for="numCampers" class="col-form-label">Number of Campers</label>
-                                </div>
-                                <div class="col">
-                                    <select class="form-control" name="numCampers" id="numCampers">
-                                        <option selected>Select...</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                        <option value="6">6</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <div class="col-sm-6">
-                                    <label for="date" class="col-form-label">Date</label>
-                                </div>
-                                <div class="col">
-                                    <input type="date" class="form-control" id="date" name="date" placeholder="date">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <div class="col">
-                                    <button type="submit" class="btn btn-primary">Search</button>
-                                </div>
-                            </div>
-                        </form> 
+                    <div class="media-body align-self-center">
+                        <h3>Bootstrap Outfitters</h3>
+                        <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with gear you need at prices you can't beat.</p>
                     </div>
                 </div>
             </div>
