@@ -5,7 +5,7 @@ h1, h2, h3 {
   font-family: "Lobster", cursive; }
 
 h2 {
-  color: #3046C5; }
+  color: #0275d8; }
 
 header h2 {
   color: #CEC8FF; }
@@ -17,7 +17,7 @@ header h2 {
 .jumbotron {
   margin: 0;
   padding: 30px;
-  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+  background-image: linear-gradient(to right, #5637dd, #0275d8, #60106b);
   color: white; }
 
 .row-content {
@@ -40,3 +40,11 @@ header h2 {
   right: 0;
   bottom: 0;
   z-index: 100; }
+
+#reserveModal .modal-header {
+  color: white;
+  background-color: #17A2B8; }
+
+#loginModal .modal-header {
+  color: white;
+  background-color: #901CAD; }

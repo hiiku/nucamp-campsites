@@ -1,3 +1,6 @@
+
+// Carousel js.
+
 $(function() {
     $(".carousel").carousel( { interval: 2000 } );
     $("#carouselButton").click(function(){
@@ -13,4 +16,19 @@ $(function() {
     });
 });
 
-$("#reserveModal").modal[options];
+// Login modal js.
+
+$(document).ready(function(){
+    $("#loginButton").click(function(){
+        $("#loginModal").modal();
+    });
+});
+
+// Reserve modal js.
+
+$(document).ready(function(){
+    $("#reserveButton").click(function(){
+        $("#reserveModal").modal();
+    });
+});
+
